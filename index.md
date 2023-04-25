@@ -10,8 +10,14 @@
 `int[] input1{12, 13, 7, 2};
 `assertEquals(EvensExample.sumEvenIndicies(input1), 19);
 `}
-*
+
+
 `public void testSumEvenLength6() {
 `int[] input1 = { 12, 13, 7, 8, 5, 3};
 `assertEquals(EvensExample.sumEvenIndices(input1), 24);
 `}
+
+[Image](BugResult.png)
+
+# Part 3 
+> One thing that I learned and found intersting from Lab 2 was the entire process of developing and running a local web server on a Java terminal. I found it very interesting to see something that I created on my laptop to have its own domain and be able to be found locally on the Internet. 
