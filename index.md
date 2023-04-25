@@ -17,7 +17,7 @@
 `assertEquals(EvensExample.sumEvenIndices(input1), 24);
 `}
 
-[Image](BugResult.png)
+![Image](BugResult.png)
 
 # Part 3 
 > One thing that I learned and found intersting from Lab 2 was the entire process of developing and running a local web server on a Java terminal. I found it very interesting to see something that I created on my laptop to have its own domain and be able to be found locally on the Internet. 
