@@ -14,12 +14,12 @@ Introduction: This lab report involves writing a web server called **StringServe
 ## Testing buggy implementation 
 `public void  testSumsEvensLength4(){
  int[] input1{12, 13, 7, 2};
- assertEquals(EvensExample.sumEvenIndicies(input1), 19); }'
+ assertEquals(EvensExample.sumEvenIndicies(input1), 19); }
 
 
 `public void testSumEvenLength6(){
  int[] input1 = { 12, 13, 7, 8, 5, 3};
- assertEquals(EvensExample.sumEvenIndices(input1), 24); }'
+ assertEquals(EvensExample.sumEvenIndices(input1), 24); }
 
 ![Image](BugResult.png)
 
