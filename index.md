@@ -12,7 +12,7 @@ Introduction: This lab report involves writing a web server called **StringServe
 
 # Part 2
 ## Testing buggy implementation 
-# code block
+### Tests using JUnit 
 `public void  testSumsEvensLength4(){`
 `int[] input1{12, 13, 7, 2};`
 `assertEquals(EvensExample.sumEvenIndicies(input1), 19); }`
