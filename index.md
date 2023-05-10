@@ -1,11 +1,17 @@
 # Part 1
+Introduction: This lab report involves writing a web server called **StringServer** based off the NumberServer and the identifying a bug based on failure inducing JUnit tests
+
 ![Image](Hello.png)
 ![Image](HelloHowAre.png)
 * String handleRequest() is the primary method that is called 
 * Relevant fields include the parameters array and String word and String s which are used to display on the page 
-* A value such as String s is changed depending on whether or not an array is null or not. If it is not null, s equals the value of word
+* s begins as an empty String to which will later include the user input
+* word is intitialized as an emptry String as well
+* If s is not a null value, word will take on s's value and concatenate with the index one of the array parameter{} 
+* A value such as String word is changed depending on whether or not an array is null or not.
 
 # Part 2
+## Testing buggy implementation 
 `public void  testSumsEvensLength4(){ 
 `int[] input1{12, 13, 7, 2}; 
 `assertEquals(EvensExample.sumEvenIndicies(input1), 19); }
