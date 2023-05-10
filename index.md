@@ -16,7 +16,7 @@ Introduction: This lab report involves writing a web server called **StringServe
 `public void  testSumsEvensLength4(){
  int[] input1{12, 13, 7, 2};
  assertEquals(EvensExample.sumEvenIndicies(input1), 19); }
- ''''
+ ````
 
 
 `public void testSumEvenLength6(){
