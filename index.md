@@ -26,8 +26,8 @@ Introduction: This lab report involves writing a web server called **StringServe
 ![Image](BugResult.png)
 
 ![Image](EvensExample.png)
-
 > EvensExample prior to fix
+
 ![Image](EvensExFix.png)
 
 >Fix of EvensExample so that arrays of length 5 are able to pass tests
