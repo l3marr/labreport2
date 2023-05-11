@@ -25,7 +25,17 @@ Introduction: This lab report involves writing a web server called **StringServe
 
 ![Image](BugResult.png)
 
-![Image](EvensExample.png)
+```
+class EvensExample{
+ static int sumEvenIndicies(int[] num){
+  int sum = 0;
+  for(int i = 0; i < nums.length - 1; i+=2){
+   sum+= nums[i + 1];
+   }
+  return sum;
+ }
+}
+ ```
 > EvensExample prior to fix
 
 ```
