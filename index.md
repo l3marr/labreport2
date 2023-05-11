@@ -25,6 +25,7 @@ Introduction: This lab report involves writing a web server called **StringServe
 
 ![Image](BugResult.png)
 
+> EvensExample code prior to fix: 
 ```
 class EvensExample{
  static int sumEvenIndicies(int[] num){
@@ -36,7 +37,7 @@ class EvensExample{
  }
 }
  ```
-> EvensExample prior to fix
+> Fix of EvensExample so that different array lengths pass the tests:
 
 ```
 class EvensExample{
