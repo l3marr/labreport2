@@ -24,6 +24,10 @@ Introduction: This lab report involves writing a web server called **StringServe
 `assertEquals(EvensExample.sumEvenIndices(input1), 24); }`
 
 ![Image](BugResult.png)
+> EvensExample prior to fix
+![Image](EvensExample.png)
+![Image](EvensExFix.png)
+>Fix of EvensExample so that arrays of length 5 are able to pass tests
 
 # Part 3 
 > One thing that I learned and found intersting from Lab 2 was the entire process of developing and running a local web server on a Java terminal. I found it very interesting to see something that I created on my laptop to have its own domain and be able to be found locally on the Internet. 
