@@ -28,8 +28,18 @@ Introduction: This lab report involves writing a web server called **StringServe
 ![Image](EvensExample.png)
 > EvensExample prior to fix
 
-![Image](EvensExFix.png)
-
+```
+class EvensExample{
+ static int sumEvenIndicies(int[] num){
+  int sum = 0;
+  for(int i = 0; i < nums.length; i+=2){
+   sum+= num[i];
+   }
+   return sum;
+ }
+}
+```
+ 
 >Fix of EvensExample so that arrays of length 5 are able to pass tests
 
 # Part 3 
