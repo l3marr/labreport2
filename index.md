@@ -24,9 +24,12 @@ Introduction: This lab report involves writing a web server called **StringServe
 `assertEquals(EvensExample.sumEvenIndices(input1), 24); }`
 
 ![Image](BugResult.png)
-> EvensExample prior to fix
+
 ![Image](EvensExample.png)
+
+> EvensExample prior to fix
 ![Image](EvensExFix.png)
+
 >Fix of EvensExample so that arrays of length 5 are able to pass tests
 
 # Part 3 
