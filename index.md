@@ -3,25 +3,28 @@ Introduction: This lab report involves writing a web server called **StringServe
 
 ![Image](Hello.png)
 ![Image](HelloHowAre.png)
-* String handleRequest() is the primary method that is called 
+* `String handleRequest()` is the primary method that is called 
 * Relevant fields include the parameters array and String word and String s which are used to display on the page 
 * s begins as an empty String to which will later include the user input
 * word is intitialized as an emptry String as well
-* If s is not a null value, word will take on s's value and concatenate with the index one of the array parameter{} 
-* A value such as String word is changed depending on whether or not an array is null or not.
+* If `s` is not a null value, `word` will take on s's value and concatenate with the index one of the array `parameter{}` 
+* A value such as `String word` is changed depending on whether or not an array is null or not.
 
 # Part 2
 ## Testing buggy implementation 
 ### Tests using JUnit 
-`public void  testSumsEvensLength4(){`
-`int[] input1{12, 13, 7, 2};`
-`assertEquals(EvensExample.sumEvenIndicies(input1), 19); }`
+```
+public void  testSumsEvensLength4(){
+int[] input1{12, 13, 7, 2};
+assertEquals(EvensExample.sumEvenIndicies(input1), 19); }
+```
  
 
-
-`public void testSumEvenLength6(){`
-`int[] input1 = { 12, 13, 7, 8, 5, 3};`
-`assertEquals(EvensExample.sumEvenIndices(input1), 24); }`
+```
+public void testSumEvenLength6(){
+int[] input1 = { 12, 13, 7, 8, 5, 3};
+assertEquals(EvensExample.sumEvenIndices(input1), 24); }
+```
 
 ![Image](BugResult.png)
 
