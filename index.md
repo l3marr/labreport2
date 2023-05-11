@@ -50,8 +50,7 @@ class EvensExample{
  }
 }
 ```
- 
->Fix of EvensExample so that arrays of length 5 are able to pass tests
+> Explanation: The reason why sumEvenIndicies() method dis not work for certain array lengths was because the `i < nums.length -1` portion of the original forloop made it so the final int value in the array, which should be counted, was skipped and therefore, the sum value output was not the expected output. This was fixed by replacing the forloop conditon with `i < nums.length` so that the final value would not be skipped.
 
 # Part 3 
 > One thing that I learned and found intersting from Lab 2 was the entire process of developing and running a local web server on a Java terminal. I found it very interesting to see something that I created on my laptop to have its own domain and be able to be found locally on the Internet. 
